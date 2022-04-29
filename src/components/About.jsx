@@ -12,7 +12,7 @@ const About = () => {
                 About Me
               </p>
             </div>
-            <div></div> {/* Div vazia */}
+            <div></div> {/* Div vazia p/ alinhamento */}
           </div>{/*fim do grid da esquerda*/}
 
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">{/* grid da direita*/}
@@ -22,7 +22,7 @@ const About = () => {
             <div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas, nisi nec imperdiet eleifend, sem nulla fringilla felis, volutpat iaculis orci arcu vel velit. Morbi euismod quis odio at blandit. Cras porta vestibulum dapibus. Vestibulum porta, diam et interdum commodo, augue dolor pretium nunc, et interdum neque dolor ac nisl.</p>
             </div>
-          </div>
+          </div> {/*Fim do grid da direita */}
           
         </div>
         {/*fim do container flex interno */}
