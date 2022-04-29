@@ -1,4 +1,5 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
+import {FaLightbulb} from 'react-icons/fa'
 
 const Home = () => {
   return (
@@ -17,11 +18,17 @@ const Home = () => {
           Nulla ex nibh, maximus quis hendrerit eu, malesuada sit amet ex.
           Pellentesque a urna dolor.
         </p>
-        <div>
-          <button className="group outline p-3 mt-5 flex items-center hover:bg-pink-600  outline-pink-600 text-[#ccd6f6] text-bold ">
+        <div className="flex">
+          <button className="group outline p-3 m-5 flex items-center hover:bg-pink-600  outline-pink-600 text-[#ccd6f6] text-bold ">
             View my work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-4" />
+            </span>
+          </button>
+          <button className=" hidden group p-3 m-5 flex items-center text-[#ccd6f6] text-bold ">
+            
+            <span className=" flex group-hover:invert duration-300">
+            Turn the lights off <FaLightbulb className="ml-4" />
             </span>
           </button>
         </div>

@@ -12,3 +12,7 @@
     @apply px-4
   }
 }
+
+:root {
+  --background: #0a192f; 
+}
