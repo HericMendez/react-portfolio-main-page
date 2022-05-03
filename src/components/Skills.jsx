@@ -5,12 +5,13 @@ import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
 import Mysql from "../assets/mysql.png"
 import GitHub from "../assets/github.png";
+import Scrum from "../assets/agile.png";
 
 
 const Skills = () => {
   return (
       <>
-    <div name="about" className=" w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="about" className=" w-full md:h-screen bg-[#0a192f] text-gray-300">
       {/*Container externo */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">{/*Flex container */}
         <div> {/* div de título */}
@@ -54,6 +55,11 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto " src={GitHub} alt="HTML icon" />
             <p className="my-4">Github</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto " src={Scrum} alt="HTML icon" />
+            <p className="my-4">Scrum</p>
           </div>
 
 
