@@ -1,6 +1,6 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
-import {FaLightbulb} from 'react-icons/fa'
-
+import { FaLightbulb } from 'react-icons/fa'
+import { Link } from "react-scroll/modules";
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen min-w-[300px] bg-[#0a192f]">
@@ -19,12 +19,14 @@ const Home = () => {
           Pellentesque a urna dolor.
         </p>
         <div className="flex">
+          <Link to="projects" smooth={true} duration={500}>
           <button className="group outline p-3 m-5 flex items-center hover:bg-pink-600  outline-pink-600 text-[#ccd6f6] text-bold ">
             View my work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-4" />
             </span>
           </button>
+          </Link>
           <button className=" hidden group p-3 m-5 flex items-center text-[#ccd6f6] text-bold ">
             
             <span className=" flex group-hover:invert duration-300">

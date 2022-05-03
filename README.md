@@ -15,3 +15,17 @@ Video URL:
 https://www.youtube.com/watch?v=2kg0z1qNrkw&t=210s
 Github repository:
 https://github.com/fireclint/portfolio-app-react
+
+
+Things to do/fix: 
+- Change placeholder text to the actual text (Home section)
+- Change placeholder text to the actual text (About section)
+- Change placeholder logo in the navbar
+- Change placeholder projects (Projects section)
+- Fix components overlapping each other in desktop version
+- Fix gmail and whatsapp links in the sidebar
+
+Ideas of features:
+- Multilanguage toggler
+- Theme toggler
+- Auto theme toggler (based on day/night time)

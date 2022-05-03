@@ -29,7 +29,7 @@ const Projects = () => {
         {/*conteiner do grid de cards*/}
         <div
           
-          className="grid sm:grid-cols-1 md:grid-cols-2
+          className="grid sm:grid-cols-1 md:grid-cols-2 md:mb-[100px]
            gap-8 text-center"
         >
           
@@ -105,6 +105,8 @@ const Projects = () => {
             </div>
           </div>
           {/* fim do item do grid */}
+
+
 
           
         </div>
