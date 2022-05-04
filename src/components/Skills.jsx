@@ -11,7 +11,7 @@ import Scrum from "../assets/agile.png";
 const Skills = () => {
   return (
       <>
-    <div name="skills" className=" w-full md:h-screen bg-[#0a192f] text-gray-300">
+    <div name="skills" className=" w-full md:h-screen  bg-[#0a192f] text-gray-300">
       {/*Container externo */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">{/*Flex container */}
         <div> {/* div de título */}
@@ -67,6 +67,9 @@ const Skills = () => {
         </div>
       </div>{/*fim do flex container */}
     </div>{/*fim do container externo */}
+    <div className="md:py-12 bg-[#0a192f]">
+      {/*div vazia de espaçamento entre componentes */}
+    </div>
     </>
   );
 };

@@ -9,7 +9,7 @@ const Projects = () => {
     {/*Conteiner externo */}
       <div
         name="projects"
-        className="w-full md:h-screen bg-[#0a192f] text-gray-300 "
+        className="w-full md:h-screen bg-[#0a192f] text-gray-300 flex flex-wrap "
       >
         
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -35,13 +35,13 @@ const Projects = () => {
           
 
 
-          {/*item do grid */}
+          {/*item 1 do grid */}
           <div style={{ backgroundImage: `url(${htmlWebsite})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div ">
             
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold text-white tracking-wider">HTML Multilanguage Page</span>
               <div>
-                <a href="https://www.acdcit.com.br/" target="_blank">
+                <a href="https://www.acdcit.com.br/" target="_blank" rel="noreferrer"> 
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                 </a>
                 <a href="/">
@@ -50,28 +50,28 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          {/* fim do item do grid */}
+          {/* fim do item 1 do grid */}
 
 
-          {/*item do grid */}
+          {/*item 2 do grid */}
           <div style={{ backgroundImage: `url(${canvasGame})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div ">
             
             <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold text-white tracking-wider">HTML Canvas Game (Flappy Bird Clone)</span>
               <div>
-                <a href="https://hericmendez.github.io/Flappyvania-Canvas/" target="_blank">
+                <a href="https://hericmendez.github.io/Flappyvania-Canvas/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                 </a>
-                <a href="https://github.com/HericMendez/Flappyvania-Canvas" target="_blank">
+                <a href="https://github.com/HericMendez/Flappyvania-Canvas" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
             </div>
           </div>
-          {/* fim do item do grid */}
+          {/* fim do item 2 do grid */}
 
 
-          {/*item do grid */}
+          {/*item 3 do grid (placeholder) */}
           <div style={{ backgroundImage: `url(${workImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             
             <div className="opacity-0 group-hover:opacity-100 ">
@@ -86,10 +86,10 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          {/* fim do item do grid */}
+          {/* fim do item 3 do grid */}
 
 
-          {/*item do grid */}
+          {/*item 4 do grid (Placeholder) */}
           <div style={{ backgroundImage: `url(${realEstate})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             
             <div className="opacity-0 group-hover:opacity-100 ">
@@ -104,7 +104,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          {/* fim do item do grid */}
+          {/* fim do item 4 do grid */}
 
 
 
@@ -113,7 +113,14 @@ const Projects = () => {
         {/* fim do conteiner do grid de cards*/}
         </div>
       </div>{" "}
+
+
       {/*fim do conteiner externo */}
+         <div className="md:py-12 bg-[#0a192f]">
+      {/*div vazia de espaçamento entre componentes */}
+    </div>
+
+    
     </>
   );
 };

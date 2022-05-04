@@ -5,20 +5,18 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { Fragment } from "react";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <Navbar />
-
       <Home />
-
       <About />
-
       <Skills />
-
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

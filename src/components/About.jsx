@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-      <div name="about" className="w-full sm:h-screen min-w-[300px] bg-[#0a192f] text-gray-300">
+      <div name="about" className="w-full md:h-screen md:pb-[100px] bg-[#0a192f] text-gray-300">
         {/*Container externo */}
         <div className="flex flex-col justify-center items-center w-full h-full">
 
@@ -29,6 +29,9 @@ const About = () => {
         {/*fim do container flex interno */}
       </div>
       {/* fim do container externo */}
+      <div className="md:py-6 bg-[#0a192f]">
+      {/*div vazia de espaçamento entre componentes */}
+    </div>
     </>
   );
 };

@@ -22,6 +22,8 @@ Things to do/fix:
 - Change placeholder text to the actual text (About section)
 - Change placeholder logo in the navbar
 - Change placeholder projects (Projects section)
+
+Bugs fixed:
 - Fix components overlapping each other in desktop version
 - Fix gmail and whatsapp links in the sidebar
 

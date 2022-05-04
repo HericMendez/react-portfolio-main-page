@@ -3,7 +3,7 @@ import { Fragment } from "react";
 
 const Contact = () => {
   return (
-    <Fragment>
+    <>
     {/* Container externo*/}
     <div
         name="contact"
@@ -20,7 +20,7 @@ const Contact = () => {
             <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center"> Submit </button>
         </form>{/*fim do Formulário */}
     </div>{/* Fim do Container externo*/}
-    </Fragment>
+    </>
   );
 };
 
