@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-      <div name="about" className="w-full md:h-screen md:pb-[100px] bg-[#0a192f] text-gray-300">
+      <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
         {/*Container externo */}
         <div className="flex flex-col justify-center items-center w-full h-full">
 
