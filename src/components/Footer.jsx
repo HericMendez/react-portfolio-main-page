@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="w-full items-center flex flex-col bg-[#0a192f] text-gray-300 text-center">
+    <footer className="w-full items-center flex flex-col bg-navbar_light dark:bg-bg_dark text-title_light dark:text-text_dark text-center">
       <div className="flex flex-row justify-center align-middle mx-auto py-6">
         <ul className="flex flex-row justify-center">
           <li>
@@ -17,7 +17,7 @@ const Footer = () => {
                target="_blank"
                rel="noreferrer"
               type="button"
-              className="rounded-full border-2 border-gray-300 text-gray-300 hover:border-pink-600 hover:text-pink-600 w-10 h-10"
+              className="rounded-full border-2 border-text_light text-text_light dark:text-text_dark hover:border-detail_light hover:text-detail_light dark:hover:border-detail_dark dark:hover:text-detail_dark w-10 h-10"
             >
               <svg
                 aria-hidden="true"
@@ -43,7 +43,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
               type="button"
-              className="rounded-full border-2 border-gray-300 text-gray-300 hover:border-pink-600 hover:text-pink-600 w-10 h-10"
+              className="rounded-full border-2 border-text_light text-text_light dark:text-text_dark hover:border-detail_light hover:text-detail_light dark:hover:border-detail_dark dark:hover:text-detail_dark w-10 h-10"
             >
               <svg
                 aria-hidden="true"
@@ -69,7 +69,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
               type="button"
-              className="rounded-full border-2 border-gray-300 text-gray-300 hover:border-pink-600 hover:text-pink-600 w-10 h-10"
+              className="rounded-full border-2 border-text_light text-text_light dark:text-text_dark hover:border-detail_light hover:text-detail_light dark:hover:border-detail_dark dark:hover:text-detail_dark w-10 h-10"
             >
               <svg
                 aria-hidden="true"
@@ -95,7 +95,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
               type="button"
-              className="rounded-full border-2 border-gray-300 text-gray-300 hover:border-pink-600 hover:text-pink-600 w-10 h-10"
+              className="rounded-full border-2 border-text_light text-text_light dark:text-text_dark hover:border-detail_light hover:text-detail_light dark:hover:border-detail_dark dark:hover:text-detail_dark w-10 h-10"
             >
               <svg
                 aria-hidden="true"
@@ -121,10 +121,10 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
               type="button"
-              className="rounded-full border-2 border-gray-300 text-gray-300 hover:border-pink-600 hover:text-pink-600 w-10 h-10"
-            >
+              className="rounded-full border-2 border-text_light text-text_light dark:text-text_dark hover:border-detail_light hover:text-detail_light dark:hover:border-detail_dark dark:hover:text-detail_dark w-10 h-10"
+              >
               <svg
-                class="w-3 h-full mx-auto text-gray-300 fill-current"
+                class="w-3 h-full mx-auto text-text_light dark:text-text_dark fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
               >
@@ -135,7 +135,7 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className=" text-xl border-t-2 border-gray-300 w-[80vw] py-3 justify-center align-middle">
+      <div className=" text-xl border-t-2 border-detail_light dark:border-title_dark w-[80vw] py-3 justify-center align-middle">
         <p>2022 HericMendez - Front-end Developer</p>
       </div>
     </footer>

@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -8,9 +10,17 @@ import Footer from "./components/Footer"
 
 
 function App() {
+  const [darkmode, setDarkmode] = useState(false)
+  const pass_data = (data) => {
+    
+    setDarkmode(data)
+  }
+  console.log(darkmode)
+
+
   return (
-    <div>
-      <Navbar />
+    <div className={darkmode ? "" : "dark"}>
+      <Navbar func={pass_data} />
       <Home />
       <About />
       <Skills />

@@ -10,52 +10,53 @@ import {
   FaWhatsapp,
   FaMoon,
   FaSun,
-  faSunset,
+
 } from "react-icons/fa";
 import FlagBR from "../assets/country-br.png";
 import FlagUS from "../assets/country-us.png";
 
 import { Link } from "react-scroll";
-const Navbar = () => {
+const Navbar = (props) => {
   const [nav, setNav] = useState(false);
   const menuClickHandler = () => setNav(!nav);
 
-  const [theme, setTheme] = useState(false);
-  const themeHandler = () => setTheme(!theme);
+  const [darkmode, setDarkmode] = useState(false);
+  const darkmodeHandler = () => setDarkmode(!darkmode);
 
   const [lang, setLang] = useState(false);
   const langHandler = () => setLang(!lang);
 
+  props.func(darkmode)
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-navbar_light text-title_light dark:bg-bg_dark dark:text-title_dark">
       <div>
         <img src={Logo} alt="Main Logo" style={{ width: "55px" }} />
       </div>
       {/*Menu Desktop*/}
       <div className="hidden md:flex">
         <ul className="md:flex">
-          <li className="hover:text-pink-600">
+          <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="home" smooth={true} duration={500}>
               Home
             </Link>
           </li>
-          <li className="hover:text-pink-600">
+          <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="about" smooth={true} duration={500}>
               About
             </Link>
           </li>
-          <li className="hover:text-pink-600">
+          <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="skills" smooth={true} duration={500}>
               Skills
             </Link>
           </li>
-          <li className="hover:text-pink-600">
+          <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="projects" smooth={true} duration={500}>
               Projects
             </Link>
           </li>
-          <li className="hover:text-pink-600">
+          <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="contact" smooth={true} duration={500}>
               Contact
             </Link>
@@ -63,7 +64,7 @@ const Navbar = () => {
 
           <li
             onClick={langHandler}
-            className="hover:text-pink-600  justify-center"
+            className="hover:text-detail_light dark:hover:text-detail_dark  justify-center"
           >
             {!lang ? (
               <p className="inline-flex align-center justify-center">
@@ -82,10 +83,10 @@ const Navbar = () => {
             )}
           </li>
           <li
-            onClick={themeHandler}
-            className="hover:text-pink-600  justify-center"
+            onClick={darkmodeHandler}
+            className="hover:text-detail_light dark:hover:text-detail_dark  justify-center"
           >
-            {!theme ? (
+            {!darkmode ? (
               <p className="inline-flex align-center justify-center">
                 <p className="p-1">
                   <FaMoon />
@@ -105,8 +106,8 @@ const Navbar = () => {
       </div>
       {/*hamburger icon (for mobile menu)*/}
       <div className="md:hidden flex flex-row">
-        <div onClick={themeHandler} className={nav ? "hidden" : "p-3 text-3xl"}>
-          {!theme ? <FaMoon /> : <FaSun />}
+        <div onClick={darkmodeHandler} className={nav ? "hidden" : "p-3 text-3xl"}>
+          {!darkmode ? <FaMoon /> : <FaSun />}
         </div>
 
         <div onClick={langHandler} className={nav ? "hidden" : "p-3 text-3xl"}>
@@ -128,7 +129,7 @@ const Navbar = () => {
               </div>
             </div>
           ) : (
-            <div className="p-3 text-3xl hover:text-pink-600">
+            <div className="p-3 text-3xl hover:text-detail_light dark:hover:text-detail_dark">
               <FaTimes />
             </div>
           )}
@@ -139,10 +140,10 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-[250px] h-screen bg-[#0a192f] flex flex-col justify-center items-center "
+            : "absolute top-0 left-0 w-[250px] h-screen dark:bg-bg_dark flex flex-col justify-center items-center "
         }
       >
-        <li className="py-6 text-4xl hover:text-pink-600">
+        <li className="py-6 text-4xl hover:text-detail_light dark:hover:text-detail_dark">
           <Link
             onClick={menuClickHandler}
             to="home"
@@ -152,7 +153,7 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:text-pink-600">
+        <li className="py-6 text-4xl hover:text-detail_light dark:hover:text-detail_dark">
           <Link
             onClick={menuClickHandler}
             to="about"
@@ -162,7 +163,7 @@ const Navbar = () => {
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:text-pink-600">
+        <li className="py-6 text-4xl hover:text-detail_light dark:hover:text-detail_dark">
           <Link
             onClick={menuClickHandler}
             to="skills"
@@ -172,7 +173,7 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:text-pink-600">
+        <li className="py-6 text-4xl hover:text-detail_light dark:hover:text-detail_dark">
           <Link
             onClick={menuClickHandler}
             to="projects"
@@ -182,7 +183,7 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:text-pink-600">
+        <li className="py-6 text-4xl hover:text-detail_light dark:hover:text-detail_dark">
           <Link
             onClick={menuClickHandler}
             to="contact"

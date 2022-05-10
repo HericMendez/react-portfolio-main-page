@@ -9,14 +9,14 @@ const Projects = () => {
     {/*Conteiner externo */}
       <div
         name="projects"
-        className="w-full md:h-screen bg-[#0a192f] text-gray-300 flex flex-wrap "
+        className="w-full md:h-screen bg-bg_light dark:bg-bg_dark text-text_light dark:text-title_dark flex flex-wrap "
       >
         
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
           {/*Div título */}
           <div className="pb-8">
             
-            <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
+            <p className="text-4xl font-bold inline border-b-4 text-title_light dark:text-title_dark border-detail_light dark:border-detail_dark">
               My Projects
             </p>
             <p className="py-6">
@@ -116,7 +116,7 @@ const Projects = () => {
 
 
       {/*fim do conteiner externo */}
-         <div className="md:py-12 bg-[#0a192f]">
+         <div className="md:py-12 bg-bg_light dark:bg-bg_dark">
       {/*div vazia de espaçamento entre componentes */}
     </div>
 
