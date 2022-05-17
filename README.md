@@ -29,7 +29,6 @@ Bugs fixed:
 
 Ideas of features:
 - Multilanguage toggler
-- Theme toggler
 - Auto theme toggler (based on day/night time)
 
 New feature added: 

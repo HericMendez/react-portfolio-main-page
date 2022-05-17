@@ -1,12 +1,6 @@
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaWhatsapp,
-} from "react-icons/fa";
 
-const Footer = () => {
+
+const Footer = (props) => {
   return (
     <footer className="w-full items-center flex flex-col bg-navbar_light dark:bg-bg_dark text-title_light dark:text-text_dark text-center">
       <div className="flex flex-row justify-center align-middle mx-auto py-6">
@@ -136,7 +130,7 @@ const Footer = () => {
       </div>
 
       <div className=" text-xl border-t-2 border-detail_light dark:border-title_dark w-[80vw] py-3 justify-center align-middle">
-        <p>2022 HericMendez - Front-end Developer</p>
+        <p>{props.translate("Footer", "p_footer")}</p>
       </div>
     </footer>
   );

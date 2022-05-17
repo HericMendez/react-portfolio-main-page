@@ -8,7 +8,7 @@ import GitHub from "../assets/github.png";
 import Scrum from "../assets/agile.png";
 
 
-const Skills = () => {
+const Skills = (props) => {
   return (
       <>
     <div name="skills" className=" w-full md:h-screen bg-bg_light text-title_light dark:bg-bg_dark dark:text-title_dark ">
@@ -16,8 +16,8 @@ const Skills = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">{/*Flex container */}
         <div> {/* div de título */}
           <div>
-            <p className="text-4xl font-bold inline border-b-4 border-detail_light dark:border-detail_dark ">Skillset</p>
-            <p className="py-4">These are the technologies that i'm familiar with.</p>
+            <p className="text-4xl font-bold inline border-b-4 border-detail_light dark:border-detail_dark ">{props.translate("Skills", "p_title")}</p>
+            <p className="py-4">{props.translate("Skills", "p_description")}</p>
           </div>
         </div>{/* fim da div de título */}
 

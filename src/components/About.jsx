@@ -1,4 +1,4 @@
-const About = () => {
+const About = (props) => {
   return (
     <>
       <div name="about" className="w-full h-screen bg-bg_light text-title_light dark:text-title_dark dark:bg-bg_dark">
@@ -9,7 +9,7 @@ const About = () => {
           <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">{/*grid da esquerda */}
             <div className="sm:text-right pb-8 pl-4">
               <p className="text-4xl font-bold inline border-b-4 border-detail_light dark:border-detail_dark ">
-                About Me
+              {props.translate("About", "p_title")}
               </p>
             </div>
             <div></div> {/* Div vazia p/ alinhamento */}
@@ -17,10 +17,10 @@ const About = () => {
 
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 ">{/* grid da direita*/}
             <div className="sm:text-right text-4xl font-bold ">
-                <p>Hi, my name is Heric, and this is my professional front-end portfolio website.</p>
+                <p>{props.translate("About", "p_description")}</p>
             </div>
             <div className="text-text_light dark:text-text_dark">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas, nisi nec imperdiet eleifend, sem nulla fringilla felis, volutpat iaculis orci arcu vel velit. Morbi euismod quis odio at blandit. Cras porta vestibulum dapibus. Vestibulum porta, diam et interdum commodo, augue dolor pretium nunc, et interdum neque dolor ac nisl.</p>
+            <p>{props.translate("About", "p_text")}</p>
             
             </div>
           </div> {/*Fim do grid da direita */}

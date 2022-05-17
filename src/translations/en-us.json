@@ -1,0 +1,56 @@
+{
+    "Navbar": {
+        "Home":"Home",
+        "About": "About",
+        "Skills": "Skills", 
+        "Projects": "Projects", 
+        "Contact":"Contact"
+    },
+
+    "Home":{
+        "p_hello":"Hi, my name is",
+        "h2_name": "Heric Mendes",
+        "h3_title": "I am a Front-end Developer.",
+        "p_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet fringilla lacus. Integer lobortis felis quis dapibus vulputate.  Nulla ex nibh, maximus quis hendrerit eu, malesuada sit amet ex.",
+        "button_work": "View my Work"
+    },
+
+    "About":{
+        "p_title": "About Me",
+        "p_description": "Hi, my name is Heric, and this is my professional front-end portfolio website.",
+        "p_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas, nisi nec imperdiet eleifend, sem nulla fringilla felis, volutpat iaculis orci arcu vel velit. Morbi euismod quis odio at blandit. Cras porta vestibulum dapibus. Vestibulum porta, diam et interdum commodo, augue dolor pretium nunc, et interdum neque dolor ac nisl."
+
+    },
+
+    "Skills":{
+        "p_title": "Skillset",
+        "p_description": "These are the technologies that i'm familiar with."
+    },
+
+    "Projects":{
+        "p_title": "My Projects",
+        "p_description": "These are some of my recent work and personal projects.",
+        "project1_title": "HTML Multilanguage Page",
+        "project2_title": "HTML Canvas Game",
+        "project3_title": "HTML Canvas Game (Flappy Bird Clone)",
+
+        "placeholder_reactjs_title": "ReactJS Placeholder Project",
+        "button_demo": "demo",
+        "button_code": "code"
+
+    },
+
+    "Contact":{
+        "p_title": "Contact",
+        "p_description": "Submit the form if you want to hire my skills or know more about my work!",
+        "placeholder_name": "Name",
+        "placeholder_email": "E-mail",
+        "placeholder_msg": "Write a message...",
+        "button_submit": "Submit"
+    },
+
+    "Footer":{
+        "p_footer": "2022 HericMendez - Front-end Developer"
+    }
+
+}

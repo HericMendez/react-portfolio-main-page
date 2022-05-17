@@ -10,12 +10,12 @@ import {
   FaWhatsapp,
   FaMoon,
   FaSun,
-
 } from "react-icons/fa";
 import FlagBR from "../assets/country-br.png";
 import FlagUS from "../assets/country-us.png";
-
 import { Link } from "react-scroll";
+
+
 const Navbar = (props) => {
   const [nav, setNav] = useState(false);
   const menuClickHandler = () => setNav(!nav);
@@ -26,7 +26,8 @@ const Navbar = (props) => {
   const [lang, setLang] = useState(false);
   const langHandler = () => setLang(!lang);
 
-  props.func(darkmode)
+  props.dark(darkmode)
+  props.lang(lang)
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-navbar_light text-title_light dark:bg-bg_dark dark:text-title_dark">
@@ -38,27 +39,27 @@ const Navbar = (props) => {
         <ul className="md:flex">
           <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="home" smooth={true} duration={500}>
-              Home
+            {props.translate("Navbar", "Home")}
             </Link>
           </li>
           <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="about" smooth={true} duration={500}>
-              About
+              {props.translate("Navbar", "About")}
             </Link>
           </li>
           <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="skills" smooth={true} duration={500}>
-              Skills
+            {props.translate("Navbar", "Skills")}
             </Link>
           </li>
           <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="projects" smooth={true} duration={500}>
-              Projects
+            {props.translate("Navbar", "Projects")}
             </Link>
           </li>
           <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="contact" smooth={true} duration={500}>
-              Contact
+            {props.translate("Navbar", "Contact")}
             </Link>
           </li>
 
@@ -112,9 +113,9 @@ const Navbar = (props) => {
 
         <div onClick={langHandler} className={nav ? "hidden" : "p-3 text-3xl"}>
           {!lang ? (
-            <img src={FlagBR} className="w-8" alt="BR"></img>
+            <img src={FlagUS} className="w-8" alt="BR"></img>
           ) : (
-            <img src={FlagUS} className="w-8" alt="US"></img>
+            <img src={FlagBR} className="w-8" alt="US"></img>
           )}
         </div>
 
@@ -150,7 +151,7 @@ const Navbar = (props) => {
             smooth={true}
             duration={500}
           >
-            Home
+            {props.translate("Navbar", "Home")}
           </Link>
         </li>
         <li className="py-6 text-4xl hover:text-detail_light dark:hover:text-detail_dark">
@@ -160,7 +161,7 @@ const Navbar = (props) => {
             smooth={true}
             duration={500}
           >
-            About
+            {props.translate("Navbar", "About")}
           </Link>
         </li>
         <li className="py-6 text-4xl hover:text-detail_light dark:hover:text-detail_dark">
@@ -170,7 +171,7 @@ const Navbar = (props) => {
             smooth={true}
             duration={500}
           >
-            Skills
+            {props.translate("Navbar", "Skills")}
           </Link>
         </li>
         <li className="py-6 text-4xl hover:text-detail_light dark:hover:text-detail_dark">
@@ -180,7 +181,7 @@ const Navbar = (props) => {
             smooth={true}
             duration={500}
           >
-            Projects
+            {props.translate("Navbar", "Projects")}
           </Link>
         </li>
         <li className="py-6 text-4xl hover:text-detail_light dark:hover:text-detail_dark">
@@ -190,7 +191,7 @@ const Navbar = (props) => {
             smooth={true}
             duration={500}
           >
-            Contact
+            {props.translate("Navbar", "Contact")}
           </Link>
         </li>
       </ul>
