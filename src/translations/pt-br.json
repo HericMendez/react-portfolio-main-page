@@ -11,14 +11,14 @@
         "p_hello":"Olá, meu nome é",
         "h2_name": "Heric Mendes",
         "h3_title": "Eu sou um desenvolvedor Front-End.",
-        "p_text": "Texto em português que eu ainda não decidi o que escrever e por isso tô escrevendo qualquer coisa pra ocupar espaço até eu pensar no que vou botar aqui como texto introdutóro",
+        "p_text": "Sou um desenvolvedor Front-end focado em criar páginas e aplicações web funcionais, responsivas e altamente personalizadas, para uso pessoal ou comercial.",
         "button_work": "Meus Trabalhos"
     },
 
     "About":{
         "p_title": "Sobre mim",
         "p_description": "Olá, meu nome é Héric, e este é meu website profissional de portifólio Front-End.",
-        "p_text": "Aqui vai outro texto que eu também não decidi ainda o que escrever porém preciso encher o espaço para que a janela não fique vazia e eu não perca a noção do grid layout. Aqui vou descrever minhas habilidades e competências como desenvolvedor, e também minhas experiências (que são poucas, mas melhor que nada)."
+        "p_text": "Formado como Técnico em Desenvolvimento de Sistemas, apaixonado por tudo que envolve tecnologia e design, autodidata e de perfil criativo, possuo experiência como Desenvolvedor Web, além de conhecimentos em desenvolvimento de APIs. Em meus conhecimentos destacam-se as tecnologias React e NodeJS."
 
     },
 

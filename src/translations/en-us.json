@@ -11,14 +11,14 @@
         "p_hello":"Hi, my name is",
         "h2_name": "Heric Mendes",
         "h3_title": "I am a Front-end Developer.",
-        "p_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet fringilla lacus. Integer lobortis felis quis dapibus vulputate.  Nulla ex nibh, maximus quis hendrerit eu, malesuada sit amet ex.",
+        "p_text": "I am a Front-end developer focused on creating functional, responsive and highly customized web pages and applications for personal or commercial use.",
         "button_work": "View my Work"
     },
 
     "About":{
         "p_title": "About Me",
         "p_description": "Hi, my name is Heric, and this is my professional front-end portfolio website.",
-        "p_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas, nisi nec imperdiet eleifend, sem nulla fringilla felis, volutpat iaculis orci arcu vel velit. Morbi euismod quis odio at blandit. Cras porta vestibulum dapibus. Vestibulum porta, diam et interdum commodo, augue dolor pretium nunc, et interdum neque dolor ac nisl."
+        "p_text": "Graduated as a Systems Development Technician, passionate about everything that involves technology and design, self-taught and with a creative profile, I have experience as a Web Developer, as well as knowledge in API development. In my knowledge React and NodeJS technologies stand out."
 
     },
 

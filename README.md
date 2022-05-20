@@ -27,9 +27,7 @@ Bugs fixed:
 - Fix components overlapping each other in desktop version
 - Fix gmail and whatsapp links in the sidebar
 
-Ideas of features:
-- Multilanguage toggler
-- Auto theme toggler (based on day/night time)
 
-New feature added: 
+New features added: 
 - Theme toggler (light/dark)
+- Multilanguage toggler
