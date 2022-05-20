@@ -32,7 +32,7 @@ const Navbar = (props) => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-navbar_light text-title_light dark:bg-bg_dark dark:text-title_dark">
       <div>
-        <img src={Logo} alt="Main Logo" style={{ width: "55px" }} />
+        <img className="hidden" src={Logo} alt="Main Logo" style={{ width: "55px" }} />
       </div>
       {/*Menu Desktop*/}
       <div className="hidden md:flex">
@@ -141,7 +141,7 @@ const Navbar = (props) => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-[250px] h-screen dark:bg-bg_dark flex flex-col justify-center items-center "
+            : "absolute top-0 left-0 w-[250px] h-screen bg-bg_light dark:bg-bg_dark flex flex-col justify-center items-center "
         }
       >
         <li className="py-6 text-4xl hover:text-detail_light dark:hover:text-detail_dark">
