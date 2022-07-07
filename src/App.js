@@ -14,7 +14,7 @@ import ENUS from '../src/translations/en-us.json'
 
 function App() {
   const [darkmode, setDarkmode] = useState(true)
-  const [portuguese, setPtbr] = useState(false)
+  const [portuguese, setPtbr] = useState(true)
   const language_data = (langdata) => setPtbr(langdata)
   const darkmode_data = (data) => setDarkmode(data)
   

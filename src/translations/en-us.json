@@ -1,56 +1,125 @@
 {
-    "Navbar": {
-        "Home":"Home",
-        "About": "About",
-        "Skills": "Skills", 
-        "Projects": "Projects", 
-        "Contact":"Contact"
-    },
+  "Navbar": {
+    "Home": "Home",
+    "About": "About",
+    "Skills": "Skills",
+    "Projects": "Projects",
+    "Contact": "Contact"
+  },
 
-    "Home":{
-        "p_hello":"Hi, my name is",
-        "h2_name": "Heric Mendes",
-        "h3_title": "I am a Front-end Developer.",
-        "p_text": "I am a Front-end developer focused on creating functional, responsive and highly customized web pages and applications for personal or commercial use.",
-        "button_work": "View my Work"
-    },
+  "Home": {
+    "p_hello": "Hi, my name is",
+    "h2_name": "Heric Mendes",
+    "h3_title": "I am a Front-end Developer.",
+    "p_text": "I am a Front-end developer focused on creating functional, responsive and highly customized web pages and applications for personal or commercial use.",
+    "button_work": "View my Work"
+  },
 
-    "About":{
-        "p_title": "About Me",
-        "p_description": "Hi, my name is Heric, and this is my professional front-end portfolio website.",
-        "p_text": "Graduated as a Systems Development Technician, passionate about everything that involves technology and design, self-taught and with a creative profile, I have experience as a Web Developer, as well as knowledge in API development. In my knowledge React and NodeJS technologies stand out."
+  "About": {
+    "p_title": "About Me",
+    "p_description": "Hi, my name is Heric, and this is my professional front-end portfolio website.",
+    "p_text": "Graduated as a Systems Development Technician, passionate about everything that involves technology and design, self-taught and with a creative profile, I have experience as a Web Developer, as well as knowledge in API development. In my knowledge React and NodeJS technologies stand out."
+  },
 
-    },
+  "Skills": {
+    "p_title": "Skillset",
+    "p_description": "These are the technologies that i'm familiar with."
+  },
 
-    "Skills":{
-        "p_title": "Skillset",
-        "p_description": "These are the technologies that i'm familiar with."
-    },
+  "Projects": {
+    "p_title": "My Projects",
+    "p_description": "These are some of my recent work and personal projects.",
 
-    "Projects":{
-        "p_title": "My Projects",
-        "p_description": "These are some of my recent work and personal projects.",
-        "project1_title": "HTML Multilanguage Page",
-        "project2_title": "HTML Canvas Game",
-        "project3_title": "HTML Canvas Game (Flappy Bird Clone)",
+    "project1_title": "Multilang HTML Website",
+    "project2_title": "CryptoApp",
+    "project3_title": "Data Pagination and Search Component",
+    "project4_title": "React Form Component",
+    "project5_title": "FlappyVania (Flappy Bird Clone)",
+    "project6_title": "Random Movie Generator",
+    "project7_title": "Pokédex React/Node "
+  },
 
-        "placeholder_reactjs_title": "ReactJS Placeholder Project",
-        "button_demo": "demo",
-        "button_code": "code"
+  "Contact": {
+    "p_title": "Contact",
+    "p_description": "Submit the form if you want to hire my skills or know more about my work!",
+    "placeholder_name": "Name",
+    "placeholder_email": "E-mail",
+    "placeholder_msg": "Write a message...",
+    "button_submit": "Submit"
+  },
 
-    },
+  "Footer": {
+    "p_footer": "2022 HericMendez - Front-end Developer"
+  },
 
-    "Contact":{
-        "p_title": "Contact",
-        "p_description": "Submit the form if you want to hire my skills or know more about my work!",
-        "placeholder_name": "Name",
-        "placeholder_email": "E-mail",
-        "placeholder_msg": "Write a message...",
-        "button_submit": "Submit"
-    },
+  "Tooltip": {
+    "skills_tech_meta": "",
+    "skills_tech_description": "",
 
-    "Footer":{
-        "p_footer": "2022 HericMendez - Front-end Developer"
-    }
+    "project_#_title": "",
+    "project_#_meta": "",
+    "project_#_description": "",
+    "project_#_tech": "",
 
+    "navbar_cv": "I'm still updating, sorry!",
+
+    "skills_html_meta": "Hypertext Markup Language",
+    "skills_html_description": "HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.",
+
+    "skills_css_meta": "Cascading Styled Sheets",
+    "skills_css_description": "CSS  is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.",
+
+    "skills_js_meta": "Multiparadigm Web Programming Language",
+    "skills_js_description": "JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting  object-oriented, imperative, and declarative (e.g. functional programming) styles",
+
+    "skills_react_meta": "Javascript Library",
+    "skills_react_description": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies. It is widely used in websites like Netflix, Imgur, Feedly, Airbnb, SeatGeek, HelloSign, and others.",
+
+    "skills_node_meta": "Javascript Back-end Runtime Environment",
+    "skills_node_description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications.",
+
+    "skills_tailwind_meta": "CSS Framework",
+    "skills_tailwind_description": "Tailwind CSS is basically a utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.",
+
+    "skills_mysql_meta": "Database Management System (DBMS)",
+    "skills_mysql_description": "MySQL is an open-source relational database management system. Its name is a combination of 'My', the name of co-founder Michael Widenius's daughter, and 'SQL', the abbreviation for Structured Query Language.",
+
+    "skills_scrum_meta": "Agile Methodology for Project Management",
+    "skills_scrum_description": "SCRUM is a framework for developing, delivering, and sustaining products in a complex environment, with an initial emphasis on software development, although it has been used in other fields including research, sales, marketing and advanced technologies.",
+
+    "project_1_title": "ACDCIT Company - Home Page",
+    "project_1_meta": "Website - Freelancer Project",
+    "project_1_description": "Webpage created from a pre-existing template, using HTML, CSS and Javscript, and with a language switch function (Portuguese/English) with text stored in local files, at the customer's request.",
+    "project_1_tech": "Tech used in this project: HTML, CSS, Javascript, Bootstrap.",
+
+    "project_2_title": "CryptoApp",
+    "project_2_meta": "Aplicativo React - Estudo de Caso",
+    "project_2_description": "It is a React app that displays detailed statistics of the most valued currencies in the world. This project was made based on a tutorial from the Code Commerce channel (Youtube), in order to further study React and TailwindCSS technologies, and also to apply the use of API consumption using Axios (do site https://www.coingecko.com/pt/api).",
+    "project_2_tech": "Tech used in this project: HTML, CSS, Javascript, TailwindCSS, React",
+
+    "project_3_title": "Pagination and Data Search Component",
+    "project_3_meta": "React Component - Case Study",
+    "project_3_description": "This is a list component with pagination and search bar, designed to be repurposed in future and larger projects. The data of this application is provided locally, through a JSON file (created through the website https://www.mockaroo.com/), however, it can be used together with an external API.",
+    "project_3_tech": "Tech used in this project: HTML, CSS, Javascript, JSON, TailwindCSS, React",
+
+    "project_4_title": "React",
+    "project_4_meta": "React Component - Case Study",
+    "project_4_description": "A complete form made with React with user input validation feature. It is ready to be connected to an endpoint. The uploaded data can be viewed through the console browser  (by pressing the F12 button).",
+    "project_4_tech": "Tech used in this project: HTML, CSS, Javascript, React.",
+
+    "project_5_title": "FlappyVania (Flappy Bird Clone)",
+    "project_5_meta": "HTML Game - Personal Project",
+    "project_5_description": "A Flappy Bird clone made with HTML Canvas and Javascript, adding the the Castlevania franchise's theme. The screen is responsive in desktop and mobile environments. I've always wanted to make a game, and this is my first (and so far only) project in the game development field. The game is a little laggy on startup because it takes a while to load all the resources, so please be patient!",
+    "project_5_tech": "Tech used in this project: HTML(Canvas Framework), CSS, Javascript.",
+
+    "project_6_title": "Random Movie Generator",
+    "project_6_meta": "Website - Personal Project",
+    "project_6_description": "It's a simple website that turns a movie name into a movie meme name. This project started as a joke between friends, but many people liked it and encouraged me to continue with the project, and it escalated to a case study, where I could implement the use of Bootstrap in the layout design, in addition to developing a theme switching function (light/dark/sepia). The data on this website comes from an API developed by me using Node.js, hosted on https://www.heroku.com. ",
+    "project_6_tech": "Tech used in this project: HTML, CSS, Javascript, Bootstrap.",
+
+    "project_7_title": "PokeNode.js",
+    "project_7_meta": "React App - Case Study",
+    "project_7_description": "This is an application I made while I was still starting my studies in React, so it's not 100% optimized. But I decided to keep it in my portfolio anyway, because I invested a considerable amount of time and effort in it, and a good part of its components and layout elements can be reused in future projects. This app does not use https://pokeapi.co/, but instead, uses database that I created using MySql, so only the first 151 pokemons (gen1) can be viewed.",
+    "project_7_tech": "Tech used in this project: HTML, CSS, Javascript, React, Node, Mysql. "
+  }
 }

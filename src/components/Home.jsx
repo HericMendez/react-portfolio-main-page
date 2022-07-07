@@ -3,6 +3,7 @@ import { Link } from "react-scroll/modules";
 
 
 
+
 const Home = (props) => {
 
   return (
@@ -29,6 +30,7 @@ const Home = (props) => {
               </span>
             </button>
           </Link>
+          
         </div>
       </div>
     </div>

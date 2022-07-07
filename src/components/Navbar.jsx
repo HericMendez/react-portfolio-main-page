@@ -14,7 +14,7 @@ import {
 import FlagBR from "../assets/country-br.png";
 import FlagUS from "../assets/country-us.png";
 import { Link } from "react-scroll";
-
+import Tooltip from "./Tooltip";
 
 const Navbar = (props) => {
   const [nav, setNav] = useState(false);
@@ -26,20 +26,25 @@ const Navbar = (props) => {
   const [lang, setLang] = useState(false);
   const langHandler = () => setLang(!lang);
 
-  props.dark(darkmode)
-  props.lang(lang)
+  props.dark(darkmode);
+  props.lang(lang);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-navbar_light text-title_light dark:bg-bg_dark dark:text-title_dark">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-navbar_light text-title_light dark:bg-bg_dark dark:text-title_dark z-100">
       <div>
-        <img className="hidden" src={Logo} alt="Main Logo" style={{ width: "55px" }} />
+        <img
+          className="hidden"
+          src={Logo}
+          alt="Main Logo"
+          style={{ width: "55px" }}
+        />
       </div>
       {/*Menu Desktop*/}
       <div className="hidden md:flex">
         <ul className="md:flex">
           <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="home" smooth={true} duration={500}>
-            {props.translate("Navbar", "Home")}
+              {props.translate("Navbar", "Home")}
             </Link>
           </li>
           <li className="hover:text-detail_light dark:hover:text-detail_dark">
@@ -49,17 +54,18 @@ const Navbar = (props) => {
           </li>
           <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="skills" smooth={true} duration={500}>
-            {props.translate("Navbar", "Skills")}
+              {props.translate("Navbar", "Skills")}
             </Link>
           </li>
           <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="projects" smooth={true} duration={500}>
-            {props.translate("Navbar", "Projects")}
+              {props.translate("Navbar", "Projects")}
             </Link>
           </li>
+
           <li className="hover:text-detail_light dark:hover:text-detail_dark">
             <Link to="contact" smooth={true} duration={500}>
-            {props.translate("Navbar", "Contact")}
+              {props.translate("Navbar", "Contact")}
             </Link>
           </li>
 
@@ -107,7 +113,10 @@ const Navbar = (props) => {
       </div>
       {/*hamburger icon (for mobile menu)*/}
       <div className="md:hidden flex flex-row">
-        <div onClick={darkmodeHandler} className={nav ? "hidden" : "p-3 text-3xl"}>
+        <div
+          onClick={darkmodeHandler}
+          className={nav ? "hidden" : "p-3 text-3xl"}
+        >
           {!darkmode ? <FaMoon /> : <FaSun />}
         </div>
 
@@ -243,16 +252,28 @@ const Navbar = (props) => {
             </a>
           </li>
 
-          <li className="w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600">
-            <a
-              className="flex justify-between w-full items-center text-gray-300"
-              href="../assets/curriculo.pdf"
-              download="curriculoPDF.pdf"
-            >
-              Resume
-              <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
+          <Tooltip
+            content={
+              <div className="w-[150px] bg-white dark:bg-[#222] p-2 rounded-md shadow-lg shadow-slate-600 dark:shadow-black">
+                <p className="font-bold text-xs text-title_light dark:text-title_dark">
+                  {props.translate("Tooltip","navbar_cv")}
+                </p>
+              </div>
+            }
+            direction="right"
+            delay="0"
+          >
+            <li className="w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600">
+              <a
+                className="flex justify-between w-full items-center text-gray-300"
+                href="#"
+                download="#"
+              >
+                Resume
+                <BsFillPersonLinesFill size={30} />
+              </a>
+            </li>
+          </Tooltip>
         </ul>
       </div>
     </div>

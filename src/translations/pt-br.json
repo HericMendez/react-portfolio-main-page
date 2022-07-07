@@ -1,56 +1,126 @@
 {
-    "Navbar": {
-        "Home":"Início",
-        "About": "Sobre",
-        "Skills": "Habilidades", 
-        "Projects": "Projetos", 
-        "Contact":"Contato"
-    },
+  "Navbar": {
+    "Home": "Início",
+    "About": "Sobre",
+    "Skills": "Habilidades",
+    "Projects": "Projetos",
+    "Contact": "Contato"
+  },
 
-    "Home":{
-        "p_hello":"Olá, meu nome é",
-        "h2_name": "Heric Mendes",
-        "h3_title": "Eu sou um desenvolvedor Front-End.",
-        "p_text": "Sou um desenvolvedor Front-end focado em criar páginas e aplicações web funcionais, responsivas e altamente personalizadas, para uso pessoal ou comercial.",
-        "button_work": "Meus Trabalhos"
-    },
+  "Home": {
+    "p_hello": "Olá, meu nome é",
+    "h2_name": "Heric Mendes",
+    "h3_title": "Eu sou um desenvolvedor Front-End.",
+    "p_text": "Sou um desenvolvedor Front-end focado em criar páginas e aplicações web funcionais, responsivas e altamente personalizadas, para uso pessoal ou comercial.",
+    "button_work": "Meus Trabalhos"
+  },
 
-    "About":{
-        "p_title": "Sobre mim",
-        "p_description": "Olá, meu nome é Héric, e este é meu website profissional de portifólio Front-End.",
-        "p_text": "Formado como Técnico em Desenvolvimento de Sistemas, apaixonado por tudo que envolve tecnologia e design, autodidata e de perfil criativo, possuo experiência como Desenvolvedor Web, além de conhecimentos em desenvolvimento de APIs. Em meus conhecimentos destacam-se as tecnologias React e NodeJS."
+  "About": {
+    "p_title": "Sobre mim",
+    "p_description": "Olá, meu nome é Héric, e este é meu website profissional de portifólio Front-End.",
+    "p_text": "Formado como Técnico em Desenvolvimento de Sistemas, apaixonado por tudo que envolve tecnologia e design, autodidata e de perfil criativo, possuo experiência como Desenvolvedor Web, além de conhecimentos em desenvolvimento de APIs. Em meus conhecimentos destacam-se as tecnologias React e NodeJS."
+  },
 
-    },
+  "Skills": {
+    "p_title": "Minhas Habilidades",
+    "p_description": "Essas são as tecnologias com as quais possuo familiaridade."
+  },
 
-    "Skills":{
-        "p_title": "Minhas Habilidades",
-        "p_description": "Essas são as tecnologias com as quais possuo familiaridade."
-    },
+  "Projects": {
+    "p_title": "Meus Projetos",
+    "p_description": "Estes são alguns de meus trabalhos recentes e projetos pessoais.",
 
-    "Projects":{
-        "p_title": "Meus Projetos",
-        "p_description": "Estes são alguns de meus trabalhos recentes e projetos pessoais.",
-        "project1_title": "Página HTML Multi-idioma",
-        "project2_title": "Jogo HTML Canvas",
-        "project3_title": "Jogo HTML Canvas (Clone de Flappy Bird)",
+    "project1_title": "Página HTML Multi-idioma",
+    "project2_title": "CryptoApp",
+    "project3_title": "Componente de Paginação e Busca de Dados",
+    "project4_title": "Componente de Formulário",
+    "project5_title": "FlappyVania (Clone de Flappy Bird)",
+    "project6_title": "Gerador de Filme Aleatório",
+    "project7_title": "Pokédex React/Node "
+    
+  },
 
-        "placeholder_reactjs_title": "ReactJS Placeholder Project",
-        "button_demo": "demo",
-        "button_code": "code"
+  "Contact": {
+    "p_title": "Contato",
+    "p_description": "Preencha o formulário para contratar meus serviços ou conhecer um pouco mais do meu trabalho!",
+    "placeholder_name": "Nome",
+    "placeholder_email": "E-mail",
+    "placeholder_msg": "Escreva uma mensagem...",
+    "button_submit": "Enviar"
+  },
 
-    },
+  "Footer": {
+    "p_footer": "2022 HericMendez - Desenvolvedor Front-End"
+  },
 
-    "Contact":{
-        "p_title": "Contato",
-        "p_description": "Preencha o formulário para contratar meus serviços ou conhecer um pouco mais do meu trabalho!",
-        "placeholder_name": "Nome",
-        "placeholder_email": "E-mail",
-        "placeholder_msg": "Escreva uma mensagem...",
-        "button_submit": "Enviar"
-    },
+  "Tooltip": {
+    "skills_tech_meta": "",
+    "skills_tech_description": "",
 
-    "Footer":{
-        "p_footer": "2022 HericMendez - Desenvolvedor Front-End"
-    }
+    "project_#_title": "",
+    "project_#_meta": "",
+    "project_#_description": "",
+    "project_#_tech": "",
 
+    "navbar_cv": "Ainda estou atualizando, desculpe!",
+
+    "skills_html_meta": "Hypertext Markup Language /\nLinguagem de Marcação de HiperTexto",
+    "skills_html_description": "HTML é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.",
+
+    "skills_css_meta": "Cascading Styled Sheets / Folhas de Estilo em Cascata",
+    "skills_css_description": "CSS É uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.",
+
+    "skills_js_meta": "Linguagem de Programação Web Multiparadigma",
+    "skills_js_description": "JavaScript (JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser, tais como node.js,  Apache CouchDB e Adobe Acrobat. O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional).",
+
+    "skills_react_meta": "Biblioteca Javascript",
+    "skills_react_description": "O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. É mantido pela empresa Meta (antigo Facebook)e uma comunidade de desenvolvedores individuais. É utilizado nos sites da Netflix, Imgur, Feedly, Airbnb, SeatGeek, HelloSign, Walmart e outros.",
+
+    "skills_node_meta": "Ambiente de Desenvolvimento Back-end Javascript",
+    "skills_node_description": "O Node.js se caracteriza como um ambiente de execução JavaScript. Com ele, o usuário pode criar aplicações sem depender do browser para isso. Com alta capacidade de escalabilidade, boa flexibilidade, arquitetura e baixo custo, torna-se uma ótima opção para programação. ",
+
+    "skills_tailwind_meta": "Framework CSS",
+    "skills_tailwind_description": "O Tailwind CSS é basicamente um framework CSS utilitário para construir rapidamente interfaces de usuário personalizadas. É uma estrutura CSS altamente personalizável e de baixo nível que fornece todos os blocos de construção necessários para criar designs sob medida sem nenhum estilo de opinião irritante que você precisa lutar para substituir.",
+
+    "skills_mysql_meta": "Sistema de Gerenciamento de Banco de Dados (SGBD)",
+    "skills_mysql_description": "O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo. ",
+
+    "skills_scrum_meta": "Metodologia Ágil de Gerenciamento de Projeto",
+    "skills_scrum_description": "SCRUM é uma estrutura para desenvolver, entregar e sustentar produtos em um ambiente complexo, com ênfase inicial no desenvolvimento de software, embora tenha sido usado em outros campos, incluindo pesquisa, vendas, marketing e tecnologias avançadas.",
+
+    "project_1_title": "Empresa ACDCIT - Home Page",
+    "project_1_meta": "Website - Projeto Freelancer",
+    "project_1_description": "Webpage criada a partir de um template pré existente, utilizando HTML, CSS e Javscript, e com função de troca de idioma (português/inglês) através de arquivos locais,a pedido do cliente.",
+    "project_1_tech": "Tecnologias utilizadas: HTML, CSS, Javascript, Bootstrap.",
+
+    "project_2_title": "CryptoApp",
+    "project_2_meta": "Aplicativo React - Estudo de Caso",
+    "project_2_description": "É um app React que exibe estatísticas detalhadas das moedas mais valorizadas do mundo. Este projeto foi feito baseado em um tutorial do canal Code Commerce (Youtube), com o intuito de estudar mais a fundo as tecnologias React e TailwindCSS, e também para aplicar o uso de consumo de APIs utilizando Axios (do site https://www.coingecko.com/pt/api).",
+    "project_2_tech": "Tecnologias utilizadas: HTML, CSS, Javascript, TailwindCSS, React",
+
+    "project_3_title": "Componente de Paginação e Busca de Dados",
+    "project_3_meta": "Componente React - Estudo de Caso",
+    "project_3_description": "Este é um componente de lista com paginação e barra de busca, criado para ser reaproveitado em projetos futuros e maiores. Os dados desta aplicação são fornecidos localmente, através de um arquivo JSON (criado através do site https://www.mockaroo.com/), porém, pode ser utilizado em conjunto com uma API externa.",
+    "project_3_tech": "Tecnologias utilizadas: HTML, CSS, Javascript, JSON, TailwindCSS, React",
+
+    "project_4_title": "Formulário React",
+    "project_4_meta": "Componente React - Estudo de Caso",
+    "project_4_description": "Um formulário completo feito em React com validações de input de usuário.Está preparado para ser conectado a um endpoint. Os dados enviados podem ser visualizados no console (pressionando F12 no navegador).",
+    "project_4_tech": "Tecnologias utilizadas: HTML, CSS, Javascript, React.",
+
+    "project_5_title": "FlappyVania (Clone de Flappy Bird)",
+    "project_5_meta": "Jogo HTML - Projeto Pessoal",
+    "project_5_description": "Clone do jogo Flappy Bird, feito utilizando HTML Canvas e Javascript,  com a temática da franquia Castlevania. A tela é responsiva em ambientes desktop e mobile. Eu sempre qus fazer um jogo, e este é meu primeiro (e até agora único) projeto na área de desenvolvimento de games. O jogo está um pouco lento na inicialização porque demora um pouco para carregar todos os recursos, então seja paciente!",
+    "project_5_tech": "Tecnologias utilizadas: HTML(Canvas Framework), CSS, Javascript.",
+
+    "project_6_title": "Gerador de Filme Aleatório",
+    "project_6_meta": "Website - Projeto Pessoal",
+    "project_6_description": "É um site simples que transforma um nome de filme em um nome de meme.Este projeto começou como uma piada entre amigos, porém muitas pessoas gostaram e me incentivaram a dar continuidade ao projeto, e o mesmo escalou para um estudo de caso, onde pude implementar o uso de Bootstrap no design de layout, além de desenvolver uma função de troca de tema (claro/escuro/sepia). Os dados deste website vêm de uma API desenvolvida por mim utilizando Node.js, hospedada em https://www.heroku.com. ",
+    "project_6_tech": "Tecnologias utilizadas: HTML(Canvas Framework), CSS, Javascript.",
+
+    "project_7_title": "PokeNode.js",
+    "project_7_meta": "Aplicativo React - Estudo de Caso",
+    "project_7_description": "Este é um aplicativo que fiz enquanto ainda estava iniciando meus estudos em React, por isso não está 100% otimizado. Porém decidi manetê-lo em meu portifólio, pois investi muito tempo e esforço nele, e boa parte de seus componentes e elementos de layout podem ser reaproveitados em projetos futuros. Este app não utiliza a https://pokeapi.co/, e sim um banco de dados que  criei utilizando MySql, por isso apenas os primeiros 151 pokémons (gen1) estão disponíveis.",
+    "project_7_tech": "Tecnologias utilizadas: HTML, CSS, Javascript, React, Node, Mysql. "
+  }
 }

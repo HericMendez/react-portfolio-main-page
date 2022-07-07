@@ -6,10 +6,10 @@ const Contact = (props) => {
     {/* Container externo*/}
     <div
         name="contact"
-        className="w-full h-screen bg-bg_light dark:bg-bg_dark flex justify-center items-center p-4"
+        className=" w-full h-screen bg-bg_light dark:bg-bg_dark flex justify-center items-center p-4"
     >   {/*Formulário */}
         <form method="POST" action="https://getform.io/f/a2ea2d9d-c968-4ba0-84cf-1f3524482e26" className="flex flex-col max-w-[600px] w-full"> 
-            <div className="pb-8 text-title_light dark:text-title_dark" >
+            <div className=" mt-12 pb-8 text-title_light dark:text-title_dark" >
                 <p className="text-4xl font-bold inline border-b-4 border-detail_light dark:border-detail_dark ">{props.translate("Contact", "p_title")}</p>
                 <p className="py-4">{props.translate("Contact", "p_description")}</p>
             </div>
